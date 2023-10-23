@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Kanit';
+    font-weight: 400;
+    src: url('./fonty/kanit/Kanit-Regular.ttf')  format('truetype'), 
+}
+@font-face {
+    font-family: 'Kanit';
+    font-weight: 700;
+    src: url('./fonty/kanit/Kanit-Bold.ttf')  format('truetype'), 
+}
+
+:root {
+    --bs-body-font-family: 'Kanit', sans-serif;
+}
+ 
+h1 {
+    font-size: 3em;
+}
