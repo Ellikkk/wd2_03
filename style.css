@@ -9,10 +9,50 @@
     src: url('./fonty/kanit/Kanit-Bold.ttf')  format('truetype'), 
 }
 
-:root {
+:root
+ {
     --bs-body-font-family: 'Kanit', sans-serif;
+} 
+
+.navbar-brand {
+    font-size: 30px;
 }
- 
-h1 {
-    font-size: 3em;
+
+.nav-link {
+    font-size: 20px;
+}
+
+.paragraph {
+    font-size: 25px;
+}
+
+.add-img {
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+
+.btn-link {
+    margin-top: -250px;
+    text-decoration: none;
+}
+
+.button-link {
+    margin-left: 850px;
+    font-size: 45px;
+    color: #1b181b;
+    text-decoration: none;
+}
+
+.btn-img {
+    margin-top: -80px;
+    margin-left: 600px;
+}
+
+.footer-part {
+    margin-top: 250px;
+}
+
+.title {
+    text-decoration: underline;
+    color: #935FEA;
 }
