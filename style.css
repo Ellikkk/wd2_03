@@ -14,6 +14,23 @@
     --bs-body-font-family: 'Kanit', sans-serif;
 } 
 
+.fs-1 {
+    font-size: 120px !important;
+}
+
+.heading-1 {
+    font-size: 120px;
+}
+
+.fs-2 {
+    font-size: 80px !important;
+}
+
+.btn-primary {
+    background-color: #935FEA;
+    border-color: #935FEA;
+}
+
 .navbar-brand {
     font-size: 30px;
 }
@@ -55,4 +72,25 @@
 .title {
     text-decoration: underline;
     color: #935FEA;
+    text-transform: uppercase;
+}
+
+.banner .container {
+    height: 660px;
+}
+
+.link-space {
+    background-image: url(img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 0px +0px;
+    background-size: 339px 148px;
+    height: 400px;
+}
+
+.custom-btn {
+    background-image: url(img/circles.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    padding: 160px 180px;
 }
