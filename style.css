@@ -14,20 +14,16 @@
     --bs-body-font-family: 'Kanit', sans-serif;
 } 
 
-.fs-1 {
-    font-size: 120px !important;
-}
-
 .heading-1 {
     font-size: 120px;
 }
 
-.fs-2 {
-    font-size: 80px !important;
+.heading-2 {
+    font-size: 80px;
 }
 
-.fs-3 {
-    font-size: 50px !important;
+.heading-3 {
+    font-size: 50px;
 }
 
 .btn-primary {
@@ -100,14 +96,6 @@
     font-size: 20px;
 }
 
-.cards {
-    margin-top: 30px;
-}
-
-.card {
-    height: 580px;
-}
-
 .custom-btn-youtube {
     background-image: url(img/youtube.png);
     background-repeat: no-repeat;
@@ -126,6 +114,7 @@
     width: 80px;
 }
 
+/* Galerie */
 
 .gallery{
     position:relative;
@@ -160,3 +149,62 @@
     height:100%;
     object-fit:cover;
   }
+
+  /* Additional styles for spacing and responsiveness */
+  .cards {
+    margin: 0 -15px; /* Adjust for Bootstrap container padding */
+    margin-top: 80px;
+}
+
+.card {
+    width: 100%; /* Set a specific width or use a percentage */
+    height: 650px;
+    margin-bottom: 15px;
+}
+
+.card-member {
+    width: 100%; /* Set a specific width or use a percentage */
+    height: 450px;
+    margin-bottom: 15px;
+}
+
+
+/* Override Bootstrap grid classes for custom configurations */
+@media (max-width: 576px) {
+    .cards .col {
+        flex: 0 0 100%; /* 1 card in a row on mobile */
+    }
+
+    .heading-1 {
+        font-size: 60px;
+        margin-top: -400px;
+    }
+}
+
+@media (min-width: 576px) {
+    .cards .col-sm-1 {
+        flex: 0 0 100%; /* 1 card in a row on small devices */
+    }
+
+    .heading-1 {
+        font-size: 80px;
+        margin-top: -400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .cards .col-md-4 {
+        flex: 0 0 50%; /* 2 cards in a row on medium devices */
+    }
+
+    .heading-1 {
+        font-size: 100px;
+        margin-top: -70px;
+    }
+}
+
+@media (min-width: 992px) {
+    .cards .col-lg-3 {
+        flex: 0 0 33.333333%; /* 3 cards in a row on large devices */
+    }
+}
